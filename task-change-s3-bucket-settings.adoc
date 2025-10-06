@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: task-change-s3-bucket-settings.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Cuando su sistema Amazon S3 esté disponible en la página Sistemas, puede cambiar algunas propiedades del depósito directamente desde la consola de NetApp . 
+---
+= Cambiar la configuración del depósito S3
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cuando su sistema Amazon S3 esté disponible en la página Sistemas, puede cambiar algunas propiedades del depósito directamente desde la consola de NetApp .
+
+Tenga en cuenta que no puede cambiar el nombre del depósito, la cuenta de AWS, la región ni la configuración de bloqueo de objetos.
+
+Las propiedades del depósito que puedes cambiar incluyen:
+
+* Si el control de versiones está habilitado o deshabilitado para todos los objetos en el depósito.
+* Puede elegir aplicar etiquetas a los objetos que se agregan al depósito.
+* Si los nuevos objetos agregados al depósito están cifrados o no, y la opción utilizada para el cifrado.
+
+
+Puede cambiar estas configuraciones de depósito directamente haciendo clic enimage:button-horizontal-more.gif["el botón de tres puntos más"] para un cubo.
+
+image:screenshot-edit-amazon-s3-bucket.png["Una captura de pantalla que muestra cómo seleccionar el botón Detalles del administrador para editar las propiedades del depósito."]
+
+
+
+== Cambiar la configuración de versiones
+
+El control de versiones le permite mantener múltiples versiones de un objeto en un depósito para poder restaurar objetos que se eliminaron o sobrescribieron accidentalmente.  Puede cambiar la configuración de versiones para objetos futuros cuando se agreguen al depósito.  Cambiar la configuración de versiones no cambia el valor de los objetos existentes.
+
+El control de versiones está deshabilitado de manera predeterminada en los depósitos nuevos, a menos que haya habilitado el Bloqueo de objetos cuando creó el depósito. https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html["Obtenga más información sobre el control de versiones en la documentación de Amazon S3"^] .
+
+Cuando está habilitado, si desea detener el control de versiones de forma temporal o permanente, puede elegir el estado "Suspendido".  No puedes deshabilitar el control de versiones una vez que se haya habilitado.
+
+image:screenshot-amazon-s3-versioning.png["Una captura de pantalla que muestra cómo cambiar la configuración de versiones de un depósito."]
+
+
+
+== Agregar o cambiar etiquetas para los objetos en el depósito
+
+Las etiquetas son metadatos que puede utilizar para agrupar recursos para identificar aplicaciones, entornos, regiones, proveedores de nube y más.  Las etiquetas constan de una clave de etiqueta y un valor de etiqueta.  Puede agregar etiquetas a un depósito para que se apliquen a los objetos cuando se agreguen al depósito.  También puede cambiar y eliminar etiquetas y valores de etiquetas.
+
+Las etiquetas están deshabilitadas de forma predeterminada en los nuevos depósitos creados por la consola de NetApp . https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["Obtenga más información sobre el etiquetado en la documentación de Amazon S3"^] .
+
+image:screenshot-amazon-s3-tags.png["Una captura de pantalla que muestra cómo agregar un nuevo par clave/valor de etiqueta para un depósito."]
+
+Después de agregar una etiqueta, haga clic en *Aplicar* para guardar los cambios.  Si desea agregar más etiquetas, haga clic en *Agregar nueva etiqueta*.  Puedes agregar hasta 10 etiquetas por depósito.
+
+
+
+== Cambiar la configuración de cifrado
+
+El cifrado del lado del servidor le permite cifrar datos en el destino de Amazon S3.  Amazon S3 cifra sus datos a nivel de objeto a medida que los escribe en el disco y los descifra cuando accede a ellos.  Puede cambiar la configuración de cifrado utilizada para futuros objetos cuando se agreguen al depósito.
+
+El cifrado está habilitado de forma predeterminada mediante el uso de "claves administradas de Amazon S3 (SSE-S3)" en nuevos depósitos creados por la consola de NetApp . https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["Obtenga más información sobre el cifrado del lado del servidor en la documentación de Amazon S3"^] .
+
+Como alternativa, puede optar por habilitar el cifrado utilizando la "clave del servicio de administración de claves de AWS (SSE-KMS)".  El cifrado también es posible utilizando las claves proporcionadas por el cliente (SSE-C), pero esta funcionalidad no está disponible a través de la interfaz de usuario de la consola: debe utilizar la interfaz de Amazon.
+
+image:screenshot-amazon-s3-encryption1.png["Una captura de pantalla que muestra cómo cambiar el tipo de clave de cifrado utilizada para un depósito."]
+
+Si elige "Clave del servicio de administración de claves de AWS (SSE-KMS)", puede elegir una clave de AWS KMS que ya haya creado o puede usar un ARN de clave de AWS KMS (nombre de recurso de Amazon).
+
+image:screenshot-amazon-s3-encryption2.png["Una captura de pantalla que muestra cómo seleccionar configuraciones de cifrado alternativas para un depósito."]
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html["Obtenga más información sobre el servicio de administración de claves de AWS en la documentación de Amazon S3"^]y sobre https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-mgmt["Uso de claves de cliente frente a claves de AWS"^] .

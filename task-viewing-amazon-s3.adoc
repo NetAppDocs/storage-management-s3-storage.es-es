@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-amazon-s3.html 
+keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system 
+summary: Después de instalar un agente de consola en AWS, NetApp Console puede descubrir automáticamente información sobre los buckets de Amazon S3 que residen en la cuenta de AWS donde está instalado el agente de consola.  Se agrega un sistema Amazon S3 a la página Sistemas para que pueda ver esta información. 
+---
+= Visualización de sus buckets de Amazon S3
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Después de instalar un agente de consola en AWS, NetApp Console puede descubrir automáticamente información sobre los buckets de Amazon S3 que residen en la cuenta de AWS donde está instalado el agente de consola.  Se agrega un sistema Amazon S3 a la página Sistemas para que pueda ver esta información.
+
+Puede ver detalles sobre sus depósitos S3, incluida la región, la política de acceso, la cuenta, la capacidad total y utilizada, y más.  Estos depósitos se pueden utilizar como destinos para operaciones de copia y recuperación de NetApp , niveles de NetApp o sincronización y copia de NetApp .  Además, puede utilizar NetApp Data Classification para escanear estos grupos.
+
+.Pasos
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-aws.html["Instalar un agente de consola"^]en la cuenta de AWS donde desea ver sus buckets de Amazon S3.
+. Desde el menú de la consola de NetApp , seleccione *Almacenamiento* y luego *Administración*.
++
+Deberías ver automáticamente tu sistema Amazon S3 poco después.
+
+
+
+image:screenshot-amazon-s3-we.png["Una captura de pantalla de un sistema Amazon S3."]
+
+. Haga clic en el sistema y seleccione una acción en el panel derecho si desea habilitar los servicios de la consola de NetApp con su almacenamiento S3.
++
+link:task-s3-enable-data-services.html["Vea qué servicios de la consola de NetApp están disponibles y aprenda a usarlos con sus buckets S3"] .
+
+. Haga clic en *Ingresar al sistema S3* o haga doble clic en el sistema para ver detalles sobre los depósitos S3 en su cuenta de AWS.
++
+Además de las columnas que aparecen de manera predeterminada, puede desplazarse por la página para ver propiedades adicionales del depósito; por ejemplo, la cantidad de etiquetas y si se han habilitado el bloqueo de objetos o el control de versiones.
+
+
+
+.¿Qué sigue?
+Puede cambiar algunas configuraciones del depósito directamente desde la consola de NetApp haciendo clic enimage:button-horizontal-more.gif["el botón de tres puntos más"] para un cubo. link:task-change-s3-bucket-settings.html["Haga clic aquí para más detalles"] .
+
+Puede agregar nuevos depósitos S3 haciendo clic en *Agregar depósito*. link:task-add-s3-bucket.html["Haga clic aquí para más detalles"] .

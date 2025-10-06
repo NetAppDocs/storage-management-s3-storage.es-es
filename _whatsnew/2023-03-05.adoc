@@ -1,0 +1,11 @@
+= Capacidad de agregar nuevos depósitos desde BlueXP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+
+
+=== Capacidad de agregar nuevos depósitos desde BlueXP
+
+Ha tenido la capacidad de ver los buckets de Amazon S3 en BlueXP Canvas durante bastante tiempo.  Ahora puede agregar nuevos depósitos y cambiar las propiedades de los depósitos existentes directamente desde BlueXP. https://docs.netapp.com/us-en/storage-management-s3-storage/task-add-s3-bucket.html["Vea cómo agregar nuevos buckets de Amazon S3"] .
