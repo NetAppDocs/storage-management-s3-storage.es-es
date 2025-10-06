@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-change-s3-bucket-settings.html 
 keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
-summary: Cuando su sistema Amazon S3 esté disponible en la página Sistemas, puede cambiar algunas propiedades del depósito directamente desde la consola de NetApp . 
+summary: Cuando su sistema Amazon S3 esté disponible en la página Sistemas, puede cambiar algunas propiedades del depósito directamente desde la NetApp Console. 
 ---
 = Cambiar la configuración del depósito S3
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cuando su sistema Amazon S3 esté disponible en la página Sistemas, pu
 
 
 [role="lead"]
-Cuando su sistema Amazon S3 esté disponible en la página Sistemas, puede cambiar algunas propiedades del depósito directamente desde la consola de NetApp .
+Cuando su sistema Amazon S3 esté disponible en la página Sistemas, puede cambiar algunas propiedades del depósito directamente desde la NetApp Console.
 
 Tenga en cuenta que no puede cambiar el nombre del depósito, la cuenta de AWS, la región ni la configuración de bloqueo de objetos.
 
@@ -47,7 +47,7 @@ image:screenshot-amazon-s3-versioning.png["Una captura de pantalla que muestra c
 
 Las etiquetas son metadatos que puede utilizar para agrupar recursos para identificar aplicaciones, entornos, regiones, proveedores de nube y más.  Las etiquetas constan de una clave de etiqueta y un valor de etiqueta.  Puede agregar etiquetas a un depósito para que se apliquen a los objetos cuando se agreguen al depósito.  También puede cambiar y eliminar etiquetas y valores de etiquetas.
 
-Las etiquetas están deshabilitadas de forma predeterminada en los nuevos depósitos creados por la consola de NetApp . https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["Obtenga más información sobre el etiquetado en la documentación de Amazon S3"^] .
+Las etiquetas están deshabilitadas de forma predeterminada en los nuevos depósitos creados por la NetApp Console. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["Obtenga más información sobre el etiquetado en la documentación de Amazon S3"^] .
 
 image:screenshot-amazon-s3-tags.png["Una captura de pantalla que muestra cómo agregar un nuevo par clave/valor de etiqueta para un depósito."]
 
@@ -59,7 +59,7 @@ Después de agregar una etiqueta, haga clic en *Aplicar* para guardar los cambio
 
 El cifrado del lado del servidor le permite cifrar datos en el destino de Amazon S3.  Amazon S3 cifra sus datos a nivel de objeto a medida que los escribe en el disco y los descifra cuando accede a ellos.  Puede cambiar la configuración de cifrado utilizada para futuros objetos cuando se agreguen al depósito.
 
-El cifrado está habilitado de forma predeterminada mediante el uso de "claves administradas de Amazon S3 (SSE-S3)" en nuevos depósitos creados por la consola de NetApp . https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["Obtenga más información sobre el cifrado del lado del servidor en la documentación de Amazon S3"^] .
+El cifrado está habilitado de forma predeterminada mediante el uso de "claves administradas de Amazon S3 (SSE-S3)" en nuevos depósitos creados por la NetApp Console. https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["Obtenga más información sobre el cifrado del lado del servidor en la documentación de Amazon S3"^] .
 
 Como alternativa, puede optar por habilitar el cifrado utilizando la "clave del servicio de administración de claves de AWS (SSE-KMS)".  El cifrado también es posible utilizando las claves proporcionadas por el cliente (SSE-C), pero esta funcionalidad no está disponible a través de la interfaz de usuario de la consola: debe utilizar la interfaz de Amazon.
 

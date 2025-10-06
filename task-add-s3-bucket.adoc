@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-add-s3-bucket.html 
 keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, netapp console 
-summary: Cuando su sistema Amazon S3 esté disponible en la página Sistemas, podrá agregar depósitos adicionales directamente desde la consola de NetApp . 
+summary: Cuando su sistema Amazon S3 esté disponible en la página Sistemas, podrá agregar depósitos adicionales directamente desde la NetApp Console. 
 ---
 = Agregar depósitos S3
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cuando su sistema Amazon S3 esté disponible en la página Sistemas, po
 
 
 [role="lead"]
-Cuando su sistema Amazon S3 esté disponible en la página _Sistemas_, podrá agregar depósitos adicionales directamente desde la consola de NetApp .
+Cuando su sistema Amazon S3 esté disponible en la página _Sistemas_, podrá agregar depósitos adicionales directamente desde la NetApp Console.
 
 .Pasos
 . Desde la página _Sistemas_, haga doble clic en el sistema Amazon S3 para ver la página _Descripción general de los buckets de Amazon S3_ y haga clic en *Agregar bucket*.
@@ -24,7 +24,7 @@ Se muestra la página _Agregar depósito_.
 . En la página _Agregar depósito_, ingrese la información requerida para crear el depósito y haga clic en *Aplicar*.
 +
 .. Introduzca el nombre que desea utilizar para el depósito.
-.. Seleccione la cuenta de AWS que será la propietaria del bucket.  Esta puede ser la cuenta principal donde se implementó el agente de consola o puede ser una https://docs.netapp.com/us-en/console-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["cuenta diferente que haya agregado a la consola de NetApp"^] .
+.. Seleccione la cuenta de AWS que será la propietaria del bucket.  Esta puede ser la cuenta principal donde se implementó el agente de consola o puede ser una https://docs.netapp.com/us-en/console-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["cuenta diferente que haya agregado a la NetApp Console"^] .
 .. Seleccione la región de AWS donde se creará el depósito.
 .. De manera opcional, puede habilitar el bloqueo de objetos S3 en el depósito para almacenar objetos utilizando un modelo de escritura única, lectura múltiple (WORM).  Si planea utilizar el bloqueo de objetos, debe habilitarlo al crear el depósito.  Al habilitar el bloqueo de objetos también se habilita el control de versiones. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Obtenga más información sobre el bloqueo de objetos en la documentación de Amazon S3"^] .
 +

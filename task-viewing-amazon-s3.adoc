@@ -20,7 +20,7 @@ Puede ver detalles sobre sus depósitos S3, incluida la región, la política de
 
 .Pasos
 . https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-aws.html["Instalar un agente de consola"^]en la cuenta de AWS donde desea ver sus buckets de Amazon S3.
-. Desde el menú de la consola de NetApp , seleccione *Almacenamiento* y luego *Administración*.
+. Desde el menú de la NetApp Console , seleccione *Almacenamiento* y luego *Administración*.
 +
 Deberías ver automáticamente tu sistema Amazon S3 poco después.
 
@@ -28,9 +28,9 @@ Deberías ver automáticamente tu sistema Amazon S3 poco después.
 
 image:screenshot-amazon-s3-we.png["Una captura de pantalla de un sistema Amazon S3."]
 
-. Haga clic en el sistema y seleccione una acción en el panel derecho si desea habilitar los servicios de la consola de NetApp con su almacenamiento S3.
+. Haga clic en el sistema y seleccione una acción en el panel derecho si desea habilitar los servicios de la NetApp Console con su almacenamiento S3.
 +
-link:task-s3-enable-data-services.html["Vea qué servicios de la consola de NetApp están disponibles y aprenda a usarlos con sus buckets S3"] .
+link:task-s3-enable-data-services.html["Vea qué servicios de la NetApp Console están disponibles y aprenda a usarlos con sus buckets S3"] .
 
 . Haga clic en *Ingresar al sistema S3* o haga doble clic en el sistema para ver detalles sobre los depósitos S3 en su cuenta de AWS.
 +
@@ -39,6 +39,6 @@ Además de las columnas que aparecen de manera predeterminada, puede desplazarse
 
 
 .¿Qué sigue?
-Puede cambiar algunas configuraciones del depósito directamente desde la consola de NetApp haciendo clic enimage:button-horizontal-more.gif["el botón de tres puntos más"] para un cubo. link:task-change-s3-bucket-settings.html["Haga clic aquí para más detalles"] .
+Puede cambiar algunas configuraciones del depósito directamente desde la NetApp Console haciendo clic enimage:button-horizontal-more.gif["el botón de tres puntos más"] para un cubo. link:task-change-s3-bucket-settings.html["Haga clic aquí para más detalles"] .
 
 Puede agregar nuevos depósitos S3 haciendo clic en *Agregar depósito*. link:task-add-s3-bucket.html["Haga clic aquí para más detalles"] .

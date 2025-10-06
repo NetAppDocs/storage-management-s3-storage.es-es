@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-s3-enable-data-services.html 
 keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, 
-summary: Después de descubrir los buckets S3 en la consola de NetApp , puede usar los servicios de datos de NetApp para realizar copias de seguridad, organizar en niveles, clasificar y sincronizar datos. 
+summary: Después de descubrir los buckets S3 en la NetApp Console, puede usar los servicios de datos de NetApp para realizar copias de seguridad, organizar en niveles, clasificar y sincronizar datos. 
 ---
 = Utilice los servicios de datos de NetApp con buckets S3
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Después de descubrir los buckets S3 en la consola de NetApp , puede us
 
 
 [role="lead"]
-Después de descubrir los buckets S3 en la consola de NetApp , puede usar los servicios de datos de NetApp para realizar copias de seguridad, organizar en niveles, clasificar y sincronizar datos.
+Después de descubrir los buckets S3 en la NetApp Console, puede usar los servicios de datos de NetApp para realizar copias de seguridad, organizar en niveles, clasificar y sincronizar datos.
 
 * Utilice * NetApp Backup and Recovery* para realizar copias de seguridad de los datos de sus sistemas ONTAP locales y Cloud Volumes ONTAP en el almacenamiento de objetos S3.
 +
@@ -39,13 +39,13 @@ También puede seleccionar su sistema Amazon S3 y hacer clic en *Copiar y sincro
 
 
 
-https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["Obtenga más información sobre el servicio de copia y sincronización de NetApp"^] .
+https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["Obtenga más información sobre el servicio de NetApp Copy and Sync"^] .
 
-* Utilice * NetApp Data Classification* para escanear sus depósitos S3 en busca de datos personales y confidenciales.  La clasificación de datos de NetApp puede escanear cualquier depósito en la cuenta, independientemente de si se creó para una solución de NetApp .
+* Utilice * NetApp Data Classification* para escanear sus buckets S3 en busca de datos personales y confidenciales.  La NetApp Data Classification puede escanear cualquier depósito en la cuenta, independientemente de si se creó para una solución de NetApp .
 +
 Para comenzar, seleccione su sistema Amazon S3 y seleccione la opción adecuada en la sección *Clasificación* del panel Servicios para iniciar el escaneo de sus buckets S3.
 
 +
-https://docs.netapp.com/us-en/data-services-classification/task-scanning-s3.html["Obtenga más información sobre el servicio de clasificación de datos de NetApp"^] .
+https://docs.netapp.com/us-en/data-services-classification/task-scanning-s3.html["Obtenga más información sobre el servicio de NetApp Data Classification"^] .
 
 
