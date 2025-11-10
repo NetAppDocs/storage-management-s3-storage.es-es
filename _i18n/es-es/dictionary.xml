@@ -180,7 +180,6 @@
   <block id="bbbf425db446e9a18580c235b40f3a05" category="list-text">Utilice * NetApp Data Classification* para escanear sus buckets S3 en busca de datos personales y confidenciales.  La NetApp Data Classification puede escanear cualquier depósito en la cuenta, independientemente de si se creó para una solución de NetApp .</block>
   <block id="afc327ef29f55ac158f97fd2e57c9bcd" category="paragraph">Para comenzar, seleccione su sistema Amazon S3 y seleccione la opción adecuada en la sección *Clasificación* del panel Servicios para iniciar el escaneo de sus buckets S3.</block>
   <block id="326e2eb5669e5433c61a5000c39008d4" category="inline-link">Obtenga más información sobre el servicio de NetApp Data Classification</block>
-  <block id="e3cfe46184136fb25370ea007876c8ec" category="paragraph"><block ref="3509d5b138f91922d82b75e7cae94ee0" category="inline-link-rx"></block> .</block>
   <block id="6269943bbab503c57445a47b04897eaa" category="summary">Antes de poder abrir un caso de soporte con el soporte técnico de NetApp , debe agregar una cuenta del sitio de soporte de NetApp a la NetApp Console y luego registrarse para recibir soporte.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Regístrese para recibir asistencia</block>
   <block id="24904df7e9008c61d33694a1bc30ed71" category="summary">Después de instalar un agente de consola en AWS, NetApp Console puede descubrir automáticamente información sobre los buckets de Amazon S3 que residen en la cuenta de AWS donde está instalado el agente de consola.  Se agrega un sistema Amazon S3 a la página Sistemas para que pueda ver esta información.</block>
@@ -219,4 +218,5 @@
   <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Documentación de almacenamiento de Amazon S3</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de la versión</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conocimiento y apoyo</block>
+  <block id="38e4a6ea124be3ae85f0c5c913bd80a7" category="paragraph"><block ref="b2391610bf85b5dbfe9880f4b5f5c77d" category="inline-link-rx"></block>.</block>
 </blocks>
